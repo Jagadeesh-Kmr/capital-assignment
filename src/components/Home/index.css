@@ -1,0 +1,247 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #e2ce1a;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #000000;
+  width: 270px;
+}
+
+.bg-img {
+  background-color: aliceblue;
+  width: 595px;
+  height: 400px;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px;
+}
+
+.profiles-img {
+  width: 595px;
+  height: 320px;
+  border-radius: 20px 20px 0px 0px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.delete-button {
+  display: flex;
+  align-items: center;
+  color: #a80000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.09px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.add-img-btn {
+  border: 2px solid #a80000;
+  background-color: transparent;
+  padding: 20px;
+  margin: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.question-box {
+  margin: 30px;
+}
+
+.question-bg {
+  background-size: cover;
+  padding-bottom: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 3px 3px 14px 0px rgba(190, 190, 190, 0.3);
+}
+
+.question-hd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  margin-bottom: 60px;
+  width: 595px;
+  height: 93px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0px 0px;
+  background: #d0f7fa;
+  color: #000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 28.5px */
+}
+
+.type-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 22.8px */
+  margin: 30px;
+}
+
+.select {
+  width: 537px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  color: #979797;
+  padding: 10px;
+  outline: none;
+}
+
+.option-name {
+  color: #979797;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 159.5%; /* 22.33px */
+}
+
+.label {
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 22.8px */
+}
+
+.input {
+  width: 537px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.save-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.delete-question-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a80000;
+  border: 0;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.09px;
+  cursor: pointer;
+}
+
+.save-button {
+  width: 59px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 0;
+  background: #087b2f;
+  color: #f4fbf7;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  cursor: pointer;
+}
+
+.text-display {
+  width: 595px;
+  color: #a80000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.09px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.choice-label {
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 22.8px */
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.choice-input-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.choice-input {
+  width: 441px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #a0a0a0;
+  padding: 10px;
+}
+
+.check-box-container {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.check-box {
+  color: #087b2f;
+}
+
+.check-box-desc {
+  width: 313px;
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.09px;
+  margin-left: 6px;
+}
