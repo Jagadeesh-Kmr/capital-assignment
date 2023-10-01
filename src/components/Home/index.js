@@ -273,10 +273,12 @@ class Home extends Component {
         <input type="text" id="phone" className="home-input" />
       </div>
 
-      <div className="add-a-question-container">
-        <HiPlusSm className="plus-icon" />
-        <p className="add-a-question-desc">Add a question</p>
-      </div>
+      <Link to="additional-questions" className="link">
+        <div className="add-a-question-container">
+          <HiPlusSm className="plus-icon" />
+          <p className="add-a-question-desc">Add a question</p>
+        </div>
+      </Link>
     </form>
   )
 
@@ -354,11 +356,12 @@ class Home extends Component {
 
         <input type="text" id="phone" className="home-input" />
       </div>
-
-      <div className="add-a-question-container">
-        <HiPlusSm className="plus-icon" />
-        <p className="add-a-question-desc">Add a question</p>
-      </div>
+      <Link to="additional-questions" className="link">
+        <div className="add-a-question-container">
+          <HiPlusSm className="plus-icon" />
+          <p className="add-a-question-desc">Add a question</p>
+        </div>
+      </Link>
     </form>
   )
 
@@ -504,10 +507,12 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="add-ad-question-container">
-          <HiPlusSm className="plus-icon" />
-          <p className="add-a-question-desc">Add a question</p>
-        </div>
+        <Link to="additional-questions" className="link">
+          <div className="add-ad-question-container">
+            <HiPlusSm className="plus-icon" />
+            <p className="add-a-question-desc">Add a question</p>
+          </div>
+        </Link>
       </form>
     )
   }

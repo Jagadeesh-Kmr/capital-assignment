@@ -558,3 +558,7 @@
   margin-left: 20px;
   height: 1px;
 }
+
+.link {
+  text-decoration: none;
+}
